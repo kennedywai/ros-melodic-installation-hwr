@@ -9,14 +9,14 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 # update
 sudo apt update
 # Desktop-Full Install: (Recommended)
-sudo apt install ros-melodic-desktop-full
+sudo apt install ros-noetic-desktop-full
 # Environment Setup
-echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 # Dependencies for building packages
-sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 #initialize rosdep
-sudo apt install python-rosdep
+sudo apt install python3-rosdep
 sudo rosdep init
 rosdep update
 sudo reboot
