@@ -1,7 +1,7 @@
-# ros-melodic-installation-hwr
-One single line to install ROS Melodic
+# ros-noetic-installation-hwr
+One single line to install ROS Noetic
 ```
-wget -c https://raw.githubusercontent.com/HelloWorldRobotics/ros-melodic-installation-hwr/master/ros-melodic-installation-hwr.sh && chmod +x ./ros-melodic-installation-hwr.sh && ./ros-melodic-installation-hwr.sh
+wget -c https://raw.githubusercontent.com/HelloWorldRobotics/ros-noetic-installation-hwr/master/ros-noetic-installation-hwr.sh && chmod +x ./ros-noetic-installation-hwr.sh && ./ros-noetic-installation-hwr.sh
 ```
 Continue on this repo after rebooting
 https://github.com/HelloWorldRobotics/catkin-setting-hwr
